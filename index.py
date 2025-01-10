@@ -20,7 +20,7 @@ name4 = name1[0:5:2] # so this code takes the first letter at index[0], skips 2 
 #string methods
 # .upper() - gives us our strings in all upper case
 # .lower() - gives us our strings in all lower case
-# .strip() - removes leading an dtrailing whitespaces
+# .strip() - removes leading an trailing whitespaces
 # .replace() - This replaces a specified phrase with another specified phrase
 # .split() - Split strings into a list, where each word is a list item. 
 
