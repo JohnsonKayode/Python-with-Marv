@@ -204,4 +204,4 @@ def arguements(*args):
 
 total = arguements(1, 99 , 0 , 2, 4, 5, 66, 77 , 2 , 'querty')
 print(total)
-# extra text,
+# extra text, Meaningless sha
