@@ -173,14 +173,14 @@ not_raining = False
 #     print(f'{i} is a number')
 
 
-# def addNumbers(num):
-#     if num == 0:
-#         return 0
-#     if num % 9 == 0:
-#         return 9
-#     return print(num % 9)
+def addNumbers(num) -> int:
+    if num == 0:
+        return 0
+    if num % 9 == 0:
+        return num
+    return print(num % 9)
 
-# addNumbers(38)
+addNumbers(0)
 
 
 def testingArgs(*args):
@@ -204,4 +204,5 @@ def arguements(*args):
 
 total = arguements(1, 99 , 0 , 2, 4, 5, 66, 77 , 2 , 'querty')
 print(total)
-# extra text, Meaningless sha
+
+ 
